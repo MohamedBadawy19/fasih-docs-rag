@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Project Specific
+chroma_db/
+logs/*.log
+logs/*.json
+data/
+
+# IDEs
+.vscode/
+.idea/
