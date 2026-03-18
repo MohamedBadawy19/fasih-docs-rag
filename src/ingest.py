@@ -7,12 +7,6 @@ What it does step by step:
   2. Splits text into overlapping chunks
   3. Converts each chunk into a vector (embedding)
   4. Stores all vectors in ChromaDB on disk
-
-You will learn:
-  - Document loaders (how LangChain reads files)
-  - Text splitters (why chunking matters for RAG)
-  - Embeddings (converting text to numbers)
-  - Vector stores (how similarity search works)
 """
 
 import os

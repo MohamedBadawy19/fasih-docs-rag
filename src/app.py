@@ -1,5 +1,5 @@
 """
-app.py — Gradio UI for Fasih-Docs (fixed for Windows + Gradio 4.x)
+app.py — Gradio UI for Fasih-Docs 
 """
  
 import gradio as gr

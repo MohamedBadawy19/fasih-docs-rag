@@ -24,5 +24,5 @@ CHUNK_OVERLAP   = 100    # Overlap between chunks so context isn't lost
 TOP_K_RESULTS   = 4      # How many chunks to retrieve per question
 
 # ── UI ─────────────────────────────────────────────────────────
-APP_TITLE       = "Fasih-Docs | فصيح-دوكس"
+APP_TITLE       = "Fasih-Docs"
 APP_DESCRIPTION = "AI assistant for engineering documentation — ask anything about your technical PDFs."

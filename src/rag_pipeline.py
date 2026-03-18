@@ -8,13 +8,6 @@ This is the brain of the system. It:
   4. Builds a prompt combining question + chunks (augmentation)
   5. Sends to Mistral and returns the answer (generation)
   6. Logs every query to a file
-
-You will learn:
-  - How retrieval works (similarity search)
-  - How to build a good RAG prompt
-  - How to cite sources from retrieved chunks
-  - How to call a local LLM via Ollama
-  - Logging patterns for production systems
 """
 
 import os
@@ -112,7 +105,7 @@ class RAGPipeline:
         """Load all components. Called once at startup."""
 
         # ── 1. Load embeddings ─────────────────────────────────
-        # Same model used in ingest.py — must match or retrieval breaks
+        # Same model used in ingest.py 
         print("Loading embedding model...")
         self.embeddings = HuggingFaceEmbeddings(
             model_name=config.EMBEDDING_MODEL,
