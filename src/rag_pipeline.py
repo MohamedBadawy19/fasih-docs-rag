@@ -70,7 +70,9 @@ Rules:
 - If the answer is not in the context, say: "This information is not available in the loaded documentation."
 - Always cite which document and page number your answer comes from.
 - Be precise and technical. Engineers need accurate answers.
-- If the question is in Arabic, answer in Arabic. If in English, answer in English.
+- IMPORTANT: Always respond in the same language as the question.
+  If the question is in Arabic, your entire answer must be in Arabic.
+  If in English, answer in English.
 
 ---
 DOCUMENTATION CONTEXT:
