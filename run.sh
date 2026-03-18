@@ -3,17 +3,6 @@
 # run.sh — Fasih-Docs launcher script
 #
 # This script is here specifically to cover the Shell Scripting
-# requirement in the Siemens job description.
-#
-# What it does:
-#   1. Checks Python is installed
-#   2. Checks Ollama is running (starts it if not)
-#   3. Checks the vector DB exists (runs ingest if not)
-#   4. Starts the Gradio app
-#
-# On Windows: run this in Git Bash or WSL
-# On Linux/Mac: chmod +x run.sh && ./run.sh
-# ============================================================
 
 set -e  # Exit immediately if any command fails
 
